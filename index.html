@@ -1,20 +1,57 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Argentine Recipes</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <h2>Argentine recipes</h2>
-    <img src="https://unareceta.com/wp-content/uploads/2018/01/empanadas-argentinas.jpg" alt="Empanadas with argentina decoration">
+    <div class="titiles">
 
-    <ul>
-        <li><a href="recipes/empanada-frita.html">Empanadas Fritas</a></li>
-        <li><a href="recipes/fugazzeta.html">Fugazzeta Rellena</a></li>
-        <li><a href="recipes/milanesa-napolitana.html">Milanesa Napolitana</a></li>
-    </ul>
-    <a href="#top">Back to top of page</a>
+        <h1>
+           ~ Odin Recipes ~
+        <h2>Argentine food</h2>
+        <h3 id="empanadas-title">Empanadas</h3>
+        <h3 id="fugazzeta-title">Fugazzeta </h3>
+        <h3 id="milanesa-title">Milanesa Napolitana</h3>
+    </div>
+    <img id="img-flag" src="images/flag.jpg" width="400" height="auto" alt="argentine flag">
+
+    <div class="image-buttons">
+        <p>
+            "Tree clasics food from argentine, hope you like them"
+        </p>
+
+    <a href="recipes/empanada-frita.html">
+        <button id="button-right">
+            <img src="images/empanada.jpg" width="300" height="200" alt="empanada image">
+            
+          </button>
+    </a>
+
+    <a href="recipes/milanesa-napolitana.html">
+        <button id="button-center">
+            <img src="images/milanesa.jpg" width="300" height="auto" alt="milanesa image">
+            
+          </button>
+    </a>
+        
+    <a href="recipes/fugazzeta.html">
+        <button id="button-left">
+            <img src="images/fugazzeta.jpg" width="300" height="auto" alt="fugazzeta image">
+            
+          </button>
+    </a>
+    </div>
+
+        
+    
 </body>
 </html>
